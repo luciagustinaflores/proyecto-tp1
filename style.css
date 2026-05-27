@@ -1,0 +1,20 @@
+/* tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-principal: #12131A;
+    --bg-cards: #1c1f2a;
+    --text-primary: #f2f2f7;
+    --text-secondary: #b4b7c9;
+    --violet: #c99dff;
+    --orange: #ffb21e;
+    --coral: #ff8a65;
+    --border: #2a2d3a;
+}
+

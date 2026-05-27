@@ -1,0 +1,44 @@
+Estructura esperada del diseño
+La página debe incluir las siguientes secciones:
+1. Header
+Debe contener:
+● Logo o texto del nombre del sitio.
+● Un botón o ícono de configuración en la esquina superior derecha.
+2. Hero principal
+Debe incluir:
+● Un título grande y centrado:
+Analyze your text in real-time.
+● Un área para escribir texto.
+Importante: La zona del texto debe ser un <textarea>, no un <div> ni un <p>.
+El textarea debe estar correctamente estilizado para parecerse al diseño de referencia.
+3. Controles debajo del textarea
+Agregar:
+● Checkbox Exclude Spaces
+● Checkbox Set Character Limit
+● Texto alineado a la derecha:
+Approx. reading time: <1 minute
+4. Tarjetas de métricas
+Crear 3 cards horizontales:
+1. Total Characters
+2. Word Count
+3. Sentence Count
+Cada tarjeta debe contener:
+● Número grande.
+● Texto descriptivo.
+● Fondo diferente.
+● Bordes redondeados.
+● Espaciado interno consistente.
+5. Sección “Letter Density”
+Debe contener:
+● Un título.
+● Varias filas de letras.
+● Una barra visual horizontal de progreso.
+● Cantidad y porcentaje alineados a la derecha.
+Investigación requerida
+Las barras horizontales del apartado Letter Density deberán realizarse investigando una solución en HTML/CSS.
+Pueden investigar:
+● <progress>
+● <meter>
+● Divs estilizados simulando barras
+● O cualquier otra técnica apropiada
+La decisión técnica queda a criterio del alumno, pero debe estar correctamente implementada y estilizada.

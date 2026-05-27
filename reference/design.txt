@@ -1,0 +1,34 @@
+/* Paleta de colores sugerida */
+Fondo principal
+#12131A
+Fondo de cards / textarea
+#1C1F2A
+Texto principal
+#F2F2F7
+Texto secundario
+#B4B7C9
+Card violeta
+#C99DFF
+Card naranja
+#FFB21E
+Card coral
+#FF8A65
+Barras de progreso
+#D19BFF
+Bordes sutiles
+#2A2D3A
+
+/* Tipografía sugerida */
+Usar Google Fonts:
+Space Grotesk – Google Fonts
+Alternativa:
+Inter – Google Fonts
+
+/* Estructura mínima de carpetas */
+proyecto/
+│── index.html
+│── styles.css
+│── assets/
+│ └── images/
+│
+└── README.md
