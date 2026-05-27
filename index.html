@@ -11,13 +11,14 @@
     <header>
         <div> 
             <img src="./assets/logo.png" alt="">
-            <h1>Character Counter</h1> 
-        </div>
-
-        <button class="theme">
+            <h2>Character Counter</h2> 
+        
+            <button class="theme">
             <img class="light" src="./assets/light-theme.png" alt="">
             <img class="dark" src="./assets/dark-theme.png" alt="">
-        </button>
+            </button>
+        </div>
+        <h1>Analyze your text in real-time.</h1>
     </header>
 
     <section id="text-input">
@@ -36,6 +37,59 @@
             </div>
             <p>Approx. reading time: < 1 minute</p>
         </div>
+    </section>
+
+    <section id="cards">
+        <ul>
+            <li><p><span>278</span></p> <h3>Total Characters</h3></li>
+            <li><p><span>39</span></p> <h3>Word Count</h3></li>
+            <li><p><span>04</span></p> <h3>Sentence Count</h3></li>
+        </ul>
+    </section>
+
+    <section id="total-each">
+        <h3>Letter Density</h3>
+        <dl class="porcent-letter">
+    
+            <div class="fact">
+                <dt class="letter">E</dt>
+                <dd class="value">
+                    <div class="visual" style="width: 16%;" aria-hidden="true"></div>
+                    <span class="porcent">40 (16.06%)</span>
+                </dd>
+            </div>
+
+            <div class="fact">
+                <dt class="letter">I</dt>
+                <dd class="value">
+                    <div class="visual" style="width: 12%;" aria-hidden="true"></div>
+                    <span class="porcent">29 (11.65%)</span>
+                </dd>
+            </div>
+            <div class="fact">
+                <dt class="letter">T</dt>
+                <dd class="value">
+                    <div class="visual" style="width: 12%;" aria-hidden="true"></div>
+                    <span class="porcent">28 (11.24%)</span>
+                </dd>
+            </div>
+            <div class="fact">
+                <dt class="letter">O</dt>
+                <dd class="value">
+                    <div class="visual" style="width: 12%;" aria-hidden="true"></div>
+                    <span class="porcent">22 (8.84%)</span>
+                </dd>
+            </div>
+            <div class="fact">
+                <dt class="letter">N</dt>
+                <dd class="value">
+                    <div class="visual" style="width: 12%;" aria-hidden="true"></div>
+                    <span class="porcent">21 (8.43%)</span>
+                </dd>
+            </div>
+
+        </dl>
+        
     </section>
     
 </body>
