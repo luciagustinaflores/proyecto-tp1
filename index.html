@@ -7,104 +7,104 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div> 
-            <img src="./assets/logo.png" alt="">
-            <h2>Character Counter</h2> 
-        
-            <button class="theme">
-            <img class="light" src="./assets/light-theme.png" alt="">
-            <img class="dark" src="./assets/dark-theme.png" alt="">
-            </button>
-        </div>
-        <h1>Analyze your text in real-time.</h1>
-    </header>
-
-    <section id="text-input">
-        <div>
-            <textarea placeholder="your-text">Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every interaction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly.</textarea>
-        </div>
-
-        <div class="checkbox-p">
-            <div class="checkbox">
-                <label for="option-box">
-                    <input type="checkbox"> Exclude spaces
-                </label>
-                <label for="option-box">
-                    <input type="checkbox"> Set character limit
-                </label>
+    <div class="card">
+        <header>
+            <div> 
+                <img class="logo" src="./assets/logo.png" alt="logo">
+                <h2>Character Counter</h2> 
+            
+                <button class="theme">
+                <img class="light" src="./assets/light-theme.png" alt="">
+                <img class="dark" src="./assets/dark-theme.png" alt="">
+                </button>
             </div>
-            <p>Approx. reading time: < 1 minute</p>
-        </div>
-    </section>
+            <h1>Analyze your text in real-time.</h1>
+        </header>
 
-    <section id="cards">
-        <ul>
-            <li><p><span>278</span></p> <h3>Total Characters</h3></li>
-            <li><p><span>39</span></p> <h3>Word Count</h3></li>
-            <li><p><span>04</span></p> <h3>Sentence Count</h3></li>
-        </ul>
-    </section>
+        <section id="text-input">
+            <div>
+                <textarea placeholder="your-text">Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every interaction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly.</textarea>
+            </div>
 
-    <section id="total-each">
-        <h3>Letter Density</h3>
-        <div class="fila-letra-vista">
-            <span class="letra">E</span>
-            <progress value="40" max="278"></progress>
-            <span class="porcentaje">40 (16.06%)</span>
-        </div>
-        <div class="fila-letra-vista">
-            <span class="letra">I</span>
-            <progress value="29" max="278"></progress>
-            <span class="porcentaje">29 (11.65%)</span>
-        </div>
-        <div class="fila-letra-vista">
-            <span class="letra">T</span>
-            <progress value="28" max="278"></progress>
-            <span class="porcentaje">28 (11.24%)</span>
-        </div>
-        <div class="fila-letra-vista">
-            <span class="letra">O</span>
-            <progress value="22" max="278"></progress>
-            <span class="porcentaje">22 (8.84%)</span>
-        </div>
-        <div class="fila-letra-vista">
-            <span class="letra">N</span>
-            <progress value="21" max="278"></progress>
-            <span class="porcentaje">21 (8.43%)</span>
-        </div>
+            <div class="checkbox-p">
+                <div class="checkbox">
+                    <label for="option-box">
+                        <input type="checkbox"> Exclude spaces
+                    </label>
+                    <label for="option-box">
+                        <input type="checkbox"> Set character limit
+                    </label>
+                </div>
+                <p>Approx. reading time: < 1 minute</p>
+            </div>
+        </section>
 
-    /* hidden section with btn */
+        <section id="cards">
+            <ul>
+                <li><p><span>278</span></p> <h3>Total Characters</h3></li>
+                <li><p><span>39</span></p> <h3>Word Count</h3></li>
+                <li><p><span>04</span></p> <h3>Sentence Count</h3></li>
+            </ul>
+        </section>
 
-        <div class="fila-letra-hidden">
-            <span class="letra">S</span>
-            <progress value="21" max="278"></progress>
-            <span class="porcentaje">21 (8.43%)</span>
-        </div>
-        <div class="fila-letra-hidden">
-            <span class="letra">A</span>
-            <progress value="19" max="278"></progress>
-            <span class="porcentaje">19 (7.55%)</span>
-        </div>
-        <div class="fila-letra-hidden">
-            <span class="letra">R</span>
-            <progress value="11" max="278"></progress>
-            <span class="porcentaje">11 (4.67%)</span>
-        </div>
-        <div class="fila-letra-hidden">
-            <span class="letra">C</span>
-            <progress value="10" max="278"></progress>
-            <span class="porcentaje">10 (3.59%)</span>
-        </div>
-        <div class="fila-letra-hidden">
-            <span class="letra">D</span>
-            <progress value="8" max="278"></progress>
-            <span class="porcentaje">8 (2.87%)</span>
-        </div>
+        <section id="total-each">
+            <h3>Letter Density</h3>
+            <div class="fila-letra-vista">
+                <span class="letra">E</span>
+                <progress value="40" max="278"></progress>
+                <span class="porcentaje">40 (16.06%)</span>
+            </div>
+            <div class="fila-letra-vista">
+                <span class="letra">I</span>
+                <progress value="29" max="278"></progress>
+                <span class="porcentaje">29 (11.65%)</span>
+            </div>
+            <div class="fila-letra-vista">
+                <span class="letra">T</span>
+                <progress value="28" max="278"></progress>
+                <span class="porcentaje">28 (11.24%)</span>
+            </div>
+            <div class="fila-letra-vista">
+                <span class="letra">O</span>
+                <progress value="22" max="278"></progress>
+                <span class="porcentaje">22 (8.84%)</span>
+            </div>
+            <div class="fila-letra-vista">
+                <span class="letra">N</span>
+                <progress value="21" max="278"></progress>
+                <span class="porcentaje">21 (8.43%)</span>
+            </div>
 
-        <button class="see-more">See more</button>
-    </section>
-    
+        /* hidden section with btn */
+
+            <div class="fila-letra-hidden">
+                <span class="letra">S</span>
+                <progress value="21" max="278"></progress>
+                <span class="porcentaje">21 (8.43%)</span>
+            </div>
+            <div class="fila-letra-hidden">
+                <span class="letra">A</span>
+                <progress value="19" max="278"></progress>
+                <span class="porcentaje">19 (7.55%)</span>
+            </div>
+            <div class="fila-letra-hidden">
+                <span class="letra">R</span>
+                <progress value="11" max="278"></progress>
+                <span class="porcentaje">11 (4.67%)</span>
+            </div>
+            <div class="fila-letra-hidden">
+                <span class="letra">C</span>
+                <progress value="10" max="278"></progress>
+                <span class="porcentaje">10 (3.59%)</span>
+            </div>
+            <div class="fila-letra-hidden">
+                <span class="letra">D</span>
+                <progress value="8" max="278"></progress>
+                <span class="porcentaje">8 (2.87%)</span>
+            </div>
+
+            <button class="see-more">See more</button>
+        </section>
+    </div>
 </body>
 </html>

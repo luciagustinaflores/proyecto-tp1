@@ -9,12 +9,49 @@
 
 :root {
     --bg-principal: #12131A;
-    --bg-cards: #1c1f2a;
+    --bg-card: #1c1f2a;
     --text-primary: #f2f2f7;
     --text-secondary: #b4b7c9;
     --violet: #c99dff;
     --orange: #ffb21e;
     --coral: #ff8a65;
-    --border: #2a2d3a;
+    --btn: #2a2d3a;
 }
 
+body {
+    background-color: var(--bg-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk";
+    color: var(--text-primary);
+}
+
+.card {
+    background-color: var(--bg-card);
+    width: 600px;
+    height: 90vh;
+    margin-top: 25px;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20px;
+    height: auto;
+    margin: 10px;
+}
+
+.light, .dark {
+    width: 15px;
+    height: auto;
+}
+
+.dark {
+    display: none;
+}
