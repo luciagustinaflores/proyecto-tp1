@@ -1,5 +1,6 @@
 /* tipografías */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
@@ -24,7 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Space Grotesk";
+    font-family: "Inter";
     color: var(--text-primary);
 }
 
@@ -33,25 +34,126 @@ body {
     width: 600px;
     height: 90vh;
     margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 header div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-right: 10px; margin-bottom: 10px;
+}
+
+.brand {
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.brand h2 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
 }
 
 .logo {
-    width: 20px;
+    width: 24px;
     height: auto;
-    margin: 10px;
+    margin-top: 10px;
 }
 
-.light, .dark {
-    width: 15px;
+.light {
+    width: 26px;
     height: auto;
+    padding: 5px;
 }
 
-.dark {
-    display: none;
+.theme {
+    background-color: var(--btn);
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    border: none;
+    cursor: pointer;
 }
+
+.theme:hover {
+    background-color: var(--bg-principal);
+    border-color: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-right: 42px; padding-left: 42px; padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+#text-input {
+    margin: 10px 20px;
+}
+
+.text {
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#text-input div textarea {
+    width: 600px;
+    height: 150px;
+    background-color: var(--btn);
+    border: none;
+    color: var(--text-secondary);
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 10px; 
+}
+
+#text-input textarea:focus {
+    outline: none;
+}
+
+.checkbox-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.checkbox-p input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border: 1px solid var(--text-secondary); 
+    border-radius: 3px; 
+    display: inline-block;
+    transform: translateY(2px);
+    cursor: pointer;
+    position: relative;
+    margin-right: 3px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--violet);
+    border-color: var(--violet); 
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
+
