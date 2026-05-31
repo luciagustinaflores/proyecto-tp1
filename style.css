@@ -33,7 +33,7 @@ body {
     background-color: var(--bg-card);
     width: 600px;
     height: 90vh;
-    margin-top: 25px;
+    margin-top: 18px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -153,7 +153,49 @@ input[type="checkbox"]:checked {
     gap: 20px;
 }
 
+#cards {
+    margin: 30px 20px 20px;
+}
 
+#cards ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#cards ul li h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bg-principal);
+}
+
+#cards ul li span {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--bg-principal);
+}
+
+#cards ul li {
+    width: 160px;
+    height: 100px;
+    padding-left: 10px; padding-top: 10px;
+}
+
+.violet {
+    background-color: var(--violet);
+    border-radius: 12px;
+}
+
+.orange {
+    background-color: var(--orange);
+    border-radius: 12px;
+}
+
+.coral {
+    background-color: var(--coral);
+    border-radius: 12px;
+}
 
 
 
