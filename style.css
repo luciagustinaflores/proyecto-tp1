@@ -50,6 +50,7 @@ header div {
     align-items: center;
     text-align: center;
     gap: 8px;
+    margin-left: 10px;
 }
 
 .brand h2 {
