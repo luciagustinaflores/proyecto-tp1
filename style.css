@@ -197,5 +197,45 @@ input[type="checkbox"]:checked {
     border-radius: 12px;
 }
 
+#total-each {
+    margin: 30px 20px 20px;
+}
 
+#total-each h3 {
+    margin-bottom: 20px;
+}
 
+.fila-letra-vista, .fila-letra-hidden {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    gap: 5px;
+}
+
+.fila-letra-hidden {
+    display: none;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 8px;
+    border-radius: 100%;
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--btn);
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--violet); 
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--violet);
+  border-radius: 10px;
+}
