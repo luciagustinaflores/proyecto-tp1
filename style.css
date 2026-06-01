@@ -209,16 +209,12 @@ input[type="checkbox"]:checked {
     margin-bottom: 20px;
 }
 
-.fila-letra-vista, .fila-letra-hidden {
+.fila-letra-vista {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     margin-bottom: 6px;
-}
-
-.fila-letra-hidden {
-    display: none;
 }
 
 .letra {
@@ -259,6 +255,9 @@ progress::-moz-progress-bar {
 }
 
 .see-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     margin-top: 10px; margin-left: 10px;
     background-color: transparent;
     border: none;
@@ -266,6 +265,17 @@ progress::-moz-progress-bar {
     color: var(--text-secondary);
     cursor: pointer;
     transition: 0.3s;
+}
+
+.see-more::after {
+    content: "";
+    display: inline-block;
+    width: 6px; 
+    height: 6px;
+    border-right: 2px solid var(--text-secondary); 
+    border-bottom: 2px solid var(--text-secondary);
+    transform: translateY(-2px) rotate(45deg); 
+    transition: transform 0.3s ease;
 }
 
 .see-more:hover {

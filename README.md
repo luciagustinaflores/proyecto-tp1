@@ -8,6 +8,9 @@ html-css:
     - #text-input: style para el input textarea y en un div los checkbox separandolos del p, mismo caso que en el header, permitiendo mejor distribución de los elementos. checkbox para las opciones de "exclude spaces" y "set character limit", textarea para que el usuario inserte su texto. 
     - #cards se utilizó una ul, estilando cada li para que coincida con el color de cada tarjeta y tenga forma de esta.
     - #total-each: se decidió utilizar la etiqueta "progress", mostrando de manera prolija los porcentajes brindados por el diseño referente y quitándole el style predeterminado con "-webkit-appearance" para poder brindar el style personalizado. el btn .see-more pretendía extender brevemente el listado de caracteres, aunque está la opción de reemplazarlo por un checkbox. aun trabajando en eso. 
+    
+    NUEVA ENTRADA 01/06/2026: 
+    - #total-each: se eliminó "fila-letra-hidden", el diseño cumple con la referencia, más adelante se continuará trabajando para inluirle js y el dinamismo del mismo. además, se modificó el btn see-more, se creó la flecha con una caja vacía de css, rotándola y solo "pintando" 2 de sus bordes para que simule una flecha.
 
 html-css. 
 
